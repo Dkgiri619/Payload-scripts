@@ -6,9 +6,6 @@ vulnerabilities that I am practising in **ruby** or **python**.
 
 ## Content
 It contains some malicious JWT generating scripts, bruteforcing, and some others.
-
-CVE-2018-0114 -> jwk.rb
-
 I will try to update it every week. Cause these tools are very handy.
 
 **If you feel you have some interesting scripts in your pocket please PR**
