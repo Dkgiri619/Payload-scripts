@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+''' 
+incomplete bruteforcing 
+'''
 import base64
 
 wordlists = []
