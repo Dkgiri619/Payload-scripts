@@ -1,3 +1,10 @@
+'''
+I wrote this to work on the CBC-MAC exploit but somehow I can't figure out why the XOR 
+thing is not working here. The ruby version is working fine, it might be because ruby convert
+base64 into a string, I checked it whereas the python is converting it into bytes, and 
+I dont know much working with bytes but I tried and still failed. So this script is not working
+'''
+
 import base64
 import requests
 import urllib.parse as urlib
@@ -34,16 +41,3 @@ final = b"administrator--"+(des)
 print(final)
 final = base64.b64encode(final)
 print(final)
-
-'''
-sig1 = sig1[1:]
-str2 = ['r','a','t','o','r'("".join(list1)) ,00, 00, 00]
-print(sig1)
-for i in sig1:
-    print(sig1[i]^sig2[i])
-'''
-
-# def xor(str1, str2):
-#    ret = ""
-#    for each in str1.split("".join(list1)) ("\\"):
-#        ret
